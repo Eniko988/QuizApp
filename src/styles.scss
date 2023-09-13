@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    background-image:linear-gradient(rgba(22, 21, 21, 0.8),rgba(21,21,21,0.8)),url(https://img.freepik.com/premium-photo/abstract-digital-background-with-binary-code-ai-algorithms-running-background_303085-2543.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color:rgba(0,0,0,0.1);
+}
