@@ -20,9 +20,7 @@ export class QuestionComponent implements OnInit{
   progress:string="0";
   isQuizCompleted: boolean = false;
 
-
-
-  constructor(private questionService : QuestionService){}
+constructor(private questionService : QuestionService){}
 
 ngOnInit(): void {
  this.name = localStorage.getItem("name")!;
@@ -110,5 +108,4 @@ getProgressPercent(){
   this.progress = ((this.currentQuestion / this.questionList.length)*100).toString();
   return this.progress;
 }
-
 }
