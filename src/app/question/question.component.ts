@@ -52,7 +52,7 @@ if(currentQuestionNum === this.questionList.length){
 }
 
   if(option.correct){
-  this.points += 10; //this.points = this.points + 10
+  this.points += 10; 
   this.correctAnswer++;
  setTimeout(() => {
   this.currentQuestion++;
